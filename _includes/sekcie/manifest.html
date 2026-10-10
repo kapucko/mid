@@ -1,0 +1,11 @@
+{%- assign t = site.data.texty.manifest -%}
+<section class="sekcia manifest">
+  <div class="wrap manifest__in">
+    <blockquote class="manifest__citat"><p>{{ t.citat }}</p></blockquote>
+    <div class="manifest__text">
+      <div class="text-soft">{{ t.text | markdownify }}</div>
+      <p class="manifest__zvyraznenie">{{ t.zvyraznenie }}</p>
+      <div class="text-soft">{{ t.zaver | markdownify }}</div>
+    </div>
+  </div>
+</section>

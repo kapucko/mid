@@ -1,0 +1,24 @@
+{%- assign t = site.data.texty.spolupraca -%}
+{%- assign k = site.data.kontakt -%}
+<section class="sekcia spolupraca" id="spolupraca">
+  <div class="wrap">
+    <h2 class="nadpis nadpis--siroky">{{ t.nadpis }}</h2>
+    <div class="moznosti">
+      <div class="moznost">
+        <h3>{{ t.sami.nazov }}</h3>
+        <p>{{ t.sami.text }}</p>
+      </div>
+      <div class="moznost moznost--my">
+        <h3>{{ t.s_nami.nazov }}</h3>
+        <p>{{ t.s_nami.text }}</p>
+      </div>
+    </div>
+    <div class="spolupraca__zaver">
+      <div class="text-soft">{{ t.kapacita | markdownify }}</div>
+      <div class="spolupraca__cta">
+        {% include tlacidlo.html text=site.data.texty.tlacidla.hlavne odkaz="#kontakt" %}
+        <p class="termin">{{ t.termin_veta }} {{ k.volny_termin }}.</p>
+      </div>
+    </div>
+  </div>
+</section>

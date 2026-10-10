@@ -1,0 +1,6 @@
+{%- comment -%}
+  Tlačidlo. Použitie:
+  {% include tlacidlo.html text=site.data.texty.tlacidla.hlavne odkaz="#kontakt" styl="obrys" %}
+  styl: prázdny = plné tlačidlo, "obrys" = len orámované
+{%- endcomment -%}
+<a class="btn{% if include.styl %} btn--{{ include.styl }}{% endif %}" href="{{ include.odkaz | default: '#kontakt' }}">{{ include.text }}</a>

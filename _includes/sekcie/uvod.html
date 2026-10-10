@@ -1,0 +1,22 @@
+{%- assign t = site.data.texty -%}
+<section class="hero">
+  <div class="wrap hero__in">
+    <div class="hero__text">
+      <p class="hero__slogan">{{ t.slogan }}</p>
+      <h1>{{ t.hero.nadpis }} <span class="hero__sub">{{ t.hero.podnadpis }}</span></h1>
+      <div class="lead">{{ t.hero.text | markdownify }}</div>
+      <div class="btns">
+        {% include tlacidlo.html text=t.tlacidla.hlavne odkaz="#kontakt" %}
+        {% include tlacidlo.html text=t.tlacidla.pristup odkaz="#pristup" styl="obrys" %}
+      </div>
+    </div>
+    <ul class="hero__sluzby" id="sluzby">
+      {%- for s in t.sluzby %}
+      <li>
+        <h2>{{ s.nazov }}</h2>
+        <p>{{ s.text }}</p>
+      </li>
+      {%- endfor %}
+    </ul>
+  </div>
+</section>

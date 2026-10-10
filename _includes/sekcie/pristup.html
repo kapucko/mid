@@ -1,0 +1,17 @@
+{%- assign t = site.data.texty.pristup -%}
+<section class="sekcia pristup" id="pristup">
+  <div class="wrap pristup__in">
+    <div class="pristup__hlava">
+      <h2 class="nadpis">{{ t.nadpis }} <span>{{ t.podnadpis }}</span></h2>
+      <div class="text-soft">{{ t.text | markdownify }}</div>
+    </div>
+    <ul class="vyhody">
+      {%- for v in t.vyhody %}
+      <li>
+        <h3>{{ v.nazov }}</h3>
+        {{ v.text | markdownify }}
+      </li>
+      {%- endfor %}
+    </ul>
+  </div>
+</section>

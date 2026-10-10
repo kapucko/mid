@@ -1,0 +1,24 @@
+{%- assign t = site.data.texty -%}
+{%- assign k = site.data.kontakt -%}
+<footer class="site-footer">
+  <div class="wrap site-footer__in">
+    <div class="site-footer__brand">
+      {% include logo.html %}
+      <p>{{ t.slogan }}</p>
+    </div>
+    <address class="site-footer__firma">
+      <strong>{{ k.firma }}</strong><br>
+      {{ k.ulica }}<br>
+      {{ k.psc_mesto }}
+    </address>
+    <dl class="site-footer__udaje">
+      <div><dt>{{ t.paticka.stitok_ico }}</dt><dd>{{ k.ico }}</dd></div>
+      <div><dt>{{ t.paticka.stitok_ic_dph }}</dt><dd>{{ k.ic_dph }}</dd></div>
+    </dl>
+    <div class="site-footer__kontakt">
+      <a href="tel:{{ k.telefon_odkaz }}">{{ k.telefon }}</a><br>
+      <a href="mailto:{{ k.email }}">{{ k.email }}</a>
+    </div>
+  </div>
+  <div class="wrap site-footer__copy">© {{ site.time | date: "%Y" }} {{ k.firma }}</div>
+</footer>

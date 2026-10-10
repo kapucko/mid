@@ -1,0 +1,15 @@
+{%- assign t = site.data.texty -%}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page.titulok | default: t.meta.titulok }}</title>
+<meta name="description" content="{{ t.meta.popis }}">
+<meta name="theme-color" content="#212325">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ page.titulok | default: t.meta.titulok }}">
+<meta property="og:description" content="{{ t.meta.popis }}">
+<meta property="og:locale" content="sk_SK">
+<link rel="icon" href="{{ '/assets/img/favicon.svg' | relative_url }}" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,500;0,600;1,500&family=Montserrat:wght@300;400;500;600;700&display=swap">
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">

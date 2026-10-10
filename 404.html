@@ -1,0 +1,13 @@
+---
+layout: default
+titulok: Stránka sa nenašla – MID Solutions
+permalink: /404.html
+---
+<section class="sekcia chyba">
+  <div class="wrap">
+    <h1 class="nadpis">Táto stránka neexistuje.</h1>
+    <p class="text-soft">Odkaz je pravdepodobne nesprávny alebo stránka bola presunutá.</p>
+    {%- capture domov %}{{ '/' | relative_url }}{% endcapture %}
+    {% include tlacidlo.html text="Späť na úvod" odkaz=domov %}
+  </div>
+</section>

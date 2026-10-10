@@ -1,0 +1,117 @@
+# Všetky texty webu na jednom mieste.
+#
+# Ako upravovať:
+# - Meňte len text za dvojbodkou, nie názvy pred ňou (nadpis:, text: ...).
+# - Pri dlhších textoch (riadok končí znakom |) píšte text odsadený o medzery pod ním.
+#   Prázdny riadok = nový odsek. **slovo** = tučné písmo.
+# - Ak text obsahuje dvojbodku, dajte ho celý do úvodzoviek "...".
+
+meta:
+  titulok: MID Solutions – kompletné rekonštrukcie na kľúč
+  popis: Kompletné rekonštrukcie bytov a domov na kľúč v Bratislave. Dizajn, statika, legislatíva aj realizácia všetkých remesiel s jedným partnerom.
+
+slogan: Kompletné rekonštrukcie na kľúč
+
+# Odkazy v hornej lište
+navigacia:
+  - text: Prístup
+    odkaz: "#pristup"
+  - text: V praxi
+    odkaz: "#v-praxi"
+  - text: Spolupráca
+    odkaz: "#spolupraca"
+  - text: Kontakt
+    odkaz: "#kontakt"
+
+# Texty tlačidiel (rovnaké tlačidlá sa opakujú na viacerých miestach)
+tlacidla:
+  hlavne: Dohodnúť si prioritné stretnutie
+  konzultacia: Dohodnúť si bezplatnú konzultáciu
+  hlavicka: Prioritné stretnutie
+  pristup: Náš prístup
+  zavolat: Zavolať
+  napisat: Napísať e-mail
+
+hero:
+  nadpis: Zhmotníme vašu predstavu o dokonalom bývaní.
+  podnadpis: Od návrhu až po poslednú lištu.
+  text: |
+    Už nemusíte hľadať architekta, zháňať statika a koordinovať elektrikárov či obkladačov. Prevezmeme plnú zodpovednosť za dizajn, statiku, legislatívu aj samotnú realizáciu všetkých remesiel. Rýchlo, čisto a so zárukou.
+
+# Tri oblasti, ktoré pokrývate (zobrazujú sa vpravo v úvode)
+sluzby:
+  - nazov: Architektúra a dizajn
+    text: Navrhneme interiér, ktorý dokonale sadne vášmu životnému štýlu.
+  - nazov: Statika a povolenia
+    text: Zabezpečíme statické posudky a potrebnú legislatívu.
+  - nazov: Všetky remeslá pod jednou strechou
+    text: Murári, elektrikári, vodári, plynári, kúrenári, podlahári, obkladači a stolári pracujú ako jeden zohratý tím.
+
+pristup:
+  nadpis: Rekonštrukcia bez starostí.
+  podnadpis: Celý projekt odovzdáte nám, vy len prevezmete kľúče.
+  text: |
+    Väčšina ľudí má strach z dvoch vecí: že sa rekonštrukcia predraží a že namiesto pohody prinesie mesiace stresu. My na to ideme inak. Spájame všetky kroky do jedného plynulého procesu.
+  vyhody:
+    - nazov: Všetko pod jednou strechou
+      text: Už nemusíte zvlášť hľadať architekta, zháňať statika a koordinovať desiatich rôznych majstrov. Od prvej skice na papieri až po finálne upratovanie komunikujete **len s jedným človekom**, s nami.
+    - nazov: Odbornosť krytá statikou a legislatívou
+      text: Búranie priečok nie je len o kladive. Každý náš zásah konzultujeme so statikmi a pripravujeme kompletnú dokumentáciu. Vaša rekonštrukcia bude nielen krásna, ale predovšetkým **bezpečná a legálna**.
+    - nazov: Zohratý tím remeselníkov
+      text: Naši murári, elektrikári, vodári a stolári nepracujú izolovane. Sú to stabilní profesionáli, ktorí poznajú postupy jeden druhého. Vďaka tomu na stavbe **nevznikajú prestoje** a nadväznosť prác je dokonale plynulá.
+    - nazov: Pevný rozpočet a jasný harmonogram
+      text: Pred začiatkom prác presne viete, koľko investujete a kedy budeme hotoví. Žiadne nepríjemné prekvapenia, žiadne svojvoľné navyšovanie cien počas stavby. Čo si dohodneme, to platí.
+    - nazov: Čistota a rešpekt k susedom
+      text: Rekonštrukcia prebieha v živom organizme bytového domu či ulice. Dbáme na poriadok v spoločných priestoroch, minimalizujeme hluk a rešpektujeme nočný pokoj. Vaše dobré vzťahy so susedmi zostanú neporušené.
+
+manifest:
+  citat: Rekonštrukcia nie je romantika z katalógu. Je to tvrdý projekt.
+  text: |
+    Povedzme si to na rovinu: prerábať bývanie s partiou náhodných robotníkov z internetu je čistý hazard s vaším časom, peniazmi a duševným zdravím. V momente, keď začnete koordinovať dizajnéra, statika, búračov a tri rôzne partie remeselníkov, zistíte, že namiesto vlastného biznisu či rodiny robíte stavbyvedúceho na plný úväzok. A ak niečo zlyhá, všetci budú dávať ruky preč a ukazovať prstom na toho druhého.
+  zvyraznenie: My tento amatérsky chaos nehráme.
+  zaver: |
+    Keď si najímate nás, nekupujete si „robotníkov na hodinu“. Najímate si manažment, ktorý prevezme kompletnú zodpovednosť od prvej skice architekta až po revíznu správu od elektrikára.
+
+prax:
+  nadpis: Čo to znamená v praxi
+  body:
+    - nazov: Žiadne diskusie o tom, čo sa „nedá“
+      text: Naši ľudia na stavbe nekrútia hlavou nad výkresmi architekta. Sme jeden tím, takže to, čo sa navrhne, sa aj technicky zrealizuje. Bez výhovoriek.
+    - nazov: Papier znesie veľa, statik nie
+      text: Nebúrame naslepo. Každý zásah do konštrukcie kryje autorizovaný statik. Robíme veci tak, aby vaše bývanie bolo bezpečné dnes aj o dvadsať rokov.
+    - nazov: Cena je pevná, slovo tiež
+      text: Nerobíme biznis štýlom „začnime a potom uvidíme“. Dostanete presný rozpočet a harmonogram. Ak povieme, že v utorok sa leje betón, tak sa v utorok leje betón.
+  cena: |
+    Áno, naša práca niečo stojí. Sme drahší ako partia chlapov bez faktúry. Platíte nám však za to, že kým my búrame, staviame a inštalujeme, vy môžete zarábať peniaze vo svojom odbore alebo sedieť s rodinou v reštaurácii.
+
+    Vy nám odovzdáte kľúče od nehnuteľnosti v pôvodnom stave. My vám v dohodnutý deň vrátime kľúče od hotového, čistého a dokonale funkčného domova. Bez toho, aby ste museli čo i len raz vziať do ruky meter alebo riešiť hádky na stavbe.
+  zaver: Ak hľadáte najnižšiu cenu na trhu, nie sme pre vás správna voľba. Ak hľadáte nekompromisný výsledok a absolútny pokoj, ste na správnom mieste.
+
+spolupraca:
+  nadpis: Máte pred sebou dve možnosti. A obe sú správne, záleží len na tom, čo od života chcete.
+  sami:
+    nazov: Riešiť to sami
+    text: Môžete stráviť najbližšie mesiace tým, že budete po večeroch študovať technické listy stavebnej chémie, hádať sa s tromi rôznymi partiami remeselníkov a dúfať, že statický posudok, ktorý vám niekto spravil „od oka“, naozaj vydrží. Možno tak ušetríte pár stoviek eur. S veľkou pravdepodobnosťou však prídete o stovky hodín času, kopec energie a kus zdravého rozumu.
+  s_nami:
+    nazov: Delegovať to na nás
+    text: Ako dospelý človek, ktorý si váži svoju prácu a svoj voľný čas, môžete celý projekt delegovať na nás. Zdvihnúť telefón, prísť na jedno stretnutie a potom už len sledovať, ako sa vaše predstavy menia na realitu pod vedením ľudí, ktorí rekonštrukciami žijú každý jeden deň.
+  kapacita: |
+    Nerobíme masovú výrobu a neberieme každú zákazku, ktorá nám pristane v maili. Kapacitu tímu držíme tak, aby sme sa každému domu či bytu mohli venovať na sto percent. Ak chcete rekonštrukciu, na ktorú budete hrdí, nečakajte, kým budeme mať plno.
+
+    Povedzte nám o svojom projekte. Buď zistíme, že sme na rovnakej vlnovej dĺžke a postavíme pre vás niečo výnimočné, alebo si na konci rozhovoru podáme ruky a pôjdeme každý svojou cestou. Úprimnosť šetrí čas. Férovo, priamo a bez nátlaku.
+  # Za túto vetu sa doplní volny_termin z _data/kontakt.yml
+  termin_veta: Aktuálne prijímame projekty na realizáciu od
+
+kontakt:
+  nadpis: Zmeňte svoje bývanie už za pár mesiacov
+  text: |
+    Každý úspešný projekt začína nezáväzným rozhovorom. Povedzte nám o svojich predstavách, pozrieme sa na možnosti priestoru a navrhneme optimálny postup.
+  poznamka: Nemáme 50 projektov ročne, pretože sa plne sústredíme na ten váš. Robíme precízne a sme osobne na stavbe každý jeden deň.
+  stitok_osoba: Váš kontakt
+  stitok_telefon: Telefón
+  stitok_email: E-mail
+  stitok_adresa: Sídlo
+
+paticka:
+  stitok_ico: IČO
+  stitok_ic_dph: IČ DPH

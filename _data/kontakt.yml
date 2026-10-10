@@ -1,0 +1,20 @@
+# Kontaktné a firemné údaje.
+# Používajú sa na viacerých miestach (sekcia Kontakt, pätička, odkazy na telefón a e-mail),
+# takže stačí zmeniť údaj tu.
+
+osoba: Viktor Sólya
+email: viktor.solya@gmail.com
+
+# telefon = ako sa zobrazí, telefon_odkaz = na kliknutie (bez medzier, s +421)
+telefon: "+421 902 730 319"
+telefon_odkaz: "+421902730319"
+
+firma: MID Solutions s.r.o.
+ulica: Štefana Králika 6174/16
+psc_mesto: 841 08 Bratislava
+ico: "45414891"
+ic_dph: SK202297957
+
+# Od kedy prijímate nové projekty. Doplní sa do vety
+# "Aktuálne prijímame projekty na realizáciu od ..."
+volny_termin: "[mesiac / kvartál]"

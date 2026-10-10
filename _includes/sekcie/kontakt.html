@@ -1,0 +1,26 @@
+{%- assign t = site.data.texty -%}
+{%- assign k = site.data.kontakt -%}
+<section class="sekcia kontakt" id="kontakt">
+  <div class="wrap kontakt__in">
+    <div class="kontakt__text">
+      <h2 class="nadpis">{{ t.kontakt.nadpis }}</h2>
+      <div class="text-soft">{{ t.kontakt.text | markdownify }}</div>
+      <p class="kontakt__poznamka">{{ t.kontakt.poznamka }}</p>
+    </div>
+    <div class="karta">
+      <dl class="karta__udaje">
+        <div><dt>{{ t.kontakt.stitok_osoba }}</dt><dd class="karta__meno">{{ k.osoba }}</dd></div>
+        <div><dt>{{ t.kontakt.stitok_telefon }}</dt><dd><a href="tel:{{ k.telefon_odkaz }}">{{ k.telefon }}</a></dd></div>
+        <div><dt>{{ t.kontakt.stitok_email }}</dt><dd><a href="mailto:{{ k.email }}">{{ k.email }}</a></dd></div>
+        <div><dt>{{ t.kontakt.stitok_adresa }}</dt><dd>{{ k.firma }}<br>{{ k.ulica }}, {{ k.psc_mesto }}</dd></div>
+      </dl>
+      <div class="btns">
+        {%- capture tel %}tel:{{ k.telefon_odkaz }}{% endcapture -%}
+        {%- capture mail %}mailto:{{ k.email }}{% endcapture %}
+        {% include tlacidlo.html text=t.tlacidla.zavolat odkaz=tel %}
+        {% include tlacidlo.html text=t.tlacidla.napisat odkaz=mail styl="obrys" %}
+      </div>
+      <p class="termin">{{ t.spolupraca.termin_veta }} {{ k.volny_termin }}.</p>
+    </div>
+  </div>
+</section>

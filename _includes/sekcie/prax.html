@@ -1,0 +1,18 @@
+{%- assign t = site.data.texty.prax -%}
+<section class="sekcia prax" id="v-praxi">
+  <div class="wrap">
+    <h2 class="nadpis">{{ t.nadpis }}</h2>
+    <ul class="prax__body">
+      {%- for b in t.body %}
+      <li>
+        <h3>{{ b.nazov }}</h3>
+        <p>{{ b.text }}</p>
+      </li>
+      {%- endfor %}
+    </ul>
+    <div class="prax__cena">
+      <div class="text-soft">{{ t.cena | markdownify }}</div>
+      <p class="prax__zaver">{{ t.zaver }}</p>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,12 @@
+{%- assign t = site.data.texty -%}
+<header class="site-header">
+  <div class="wrap site-header__in">
+    {% include logo.html %}
+    <nav class="nav" aria-label="Hlavná navigácia">
+      {%- for polozka in t.navigacia %}
+      <a href="{{ '/' | relative_url }}{{ polozka.odkaz }}">{{ polozka.text }}</a>
+      {%- endfor %}
+    </nav>
+    {% include tlacidlo.html text=t.tlacidla.hlavicka odkaz="#kontakt" styl="male" %}
+  </div>
+</header>
