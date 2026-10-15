@@ -3,11 +3,11 @@ title: MID Solutions
 lang: sk
 
 # Adresa webu. Ak budete mať vlastnú doménu, napíšte ju sem, napr. "https://www.midsolutions.sk"
-url: ""
+url: "https://midsolutions.sk"
 
 # Ak web beží na adrese typu https://meno.github.io/mid, nastavte baseurl: "/mid"
 # Pri vlastnej doméne alebo repozitári meno.github.io nechajte prázdne.
-baseurl: "/mid"
+baseurl: ""
 
 # Súbory, ktoré sa na web nemajú dostať
 exclude:
